@@ -18,18 +18,22 @@ inputs.month = "04"
 Result: green_tripdata_2020-04.csv
 
 -- 3. How many rows are there for the Yellow Taxi data for all CSV files in the year 2020?
+
 select count(*)
 from my_ds_zoomcamp.yellow_tripdata
 where filename like '%2020%';
 
 -- 4. How many rows are there for the Green Taxi data for all CSV files in the year 2020?
+
 select count(*)
 from my_ds_zoomcamp.green_tripdata
 where filename like '%2020%';
 
 -- 5. How many rows are there for the Yellow Taxi data for the March 2021 CSV file?
+
 select count(*)
 from my_ds_zoomcamp.yellow_tripdata_2021_03;
 
 -- 6. How would you configure the timezone to New York in a Schedule trigger?
+
 Add a timezone property set to America/New_York in the Schedule trigger configuration
