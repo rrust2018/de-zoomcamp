@@ -7,11 +7,14 @@
 128.3 MB
 
 -- 2. What is the rendered value of the variable file when the inputs taxi is set to green, year is set to 2020, and month is set to 04 during execution?
+
 Kestra template: {{inputs.taxi}}_tripdata_{{inputs.year}}-{{inputs.month}}.csv
+
 Inputs:
 inputs.taxi = "green"
 inputs.year = "2020"
 inputs.month = "04"
+
 Result: green_tripdata_2020-04.csv
 
 -- 3. How many rows are there for the Yellow Taxi data for all CSV files in the year 2020?
