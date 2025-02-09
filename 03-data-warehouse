@@ -40,5 +40,3 @@ where tpep_dropoff_datetime between '2024-03-01' and '2024-03-15';
 select distinct vendorid
 from my_ds_zoomcamp.yellow_data_2024_part_clust
 where tpep_dropoff_datetime between '2024-03-01' and '2024-03-15';
-
-310.24 MB / 26.84 MB
